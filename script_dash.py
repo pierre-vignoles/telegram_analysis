@@ -463,6 +463,7 @@ def run_dash(dict_media: Dict[str, str], dict_media_singular: Dict[str, str]) ->
 
     app = dash.Dash(__name__, external_stylesheets=external)
     auth = dash_auth.BasicAuth(app, USERNAME_PASSWORD_PAIRS)
+    server = app.server
     # app.config['suppress_callback_exceptions'] = True
 
     # Layout
