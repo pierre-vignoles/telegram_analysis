@@ -38,7 +38,6 @@ Markdown==3.3.4
 MarkupSafe==2.0.1
 matplotlib==3.4.2
 murmurhash==1.0.5
-nltk==3.6.2
 numpy==1.21.0
 opt-einsum==3.3.0
 packaging==20.9
@@ -60,9 +59,6 @@ spacy==3.0.6
 spacy-legacy==3.0.6
 srsly==2.4.1
 tenacity==7.0.0
-tensorboard==2.4.1
-tensorflow==2.4.1
-tensorflow-estimator==2.4.0
 termcolor==1.1.0
 textblob==0.15.3
 thinc==8.0.6
