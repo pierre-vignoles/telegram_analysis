@@ -8,7 +8,9 @@ from pathlib import Path
 
 from textblob import TextBlob, Blobber
 from textblob_fr import PatternTagger, PatternAnalyzer
-from nltk.stem.snowball import SnowballStemmer
+
+
+# from nltk.stem.snowball import SnowballStemmer
 
 
 def init_nlp():
