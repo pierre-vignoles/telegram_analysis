@@ -462,6 +462,7 @@ def run_dash(dict_media: Dict[str, str], dict_media_singular: Dict[str, str]) ->
     USERNAME_PASSWORD_PAIRS = [['username', 'password'], ['admin', 'admin']]
 
     app = dash.Dash(__name__, external_stylesheets=external)
+    server = app.server
     auth = dash_auth.BasicAuth(app, USERNAME_PASSWORD_PAIRS)
     # app.config['suppress_callback_exceptions'] = True
 
