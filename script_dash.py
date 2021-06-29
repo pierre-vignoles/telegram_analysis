@@ -457,12 +457,9 @@ def function_tab_2(list_names=None):
     ])
 
 
-def run_dash(dict_media: Dict[str, str], dict_media_singular: Dict[str, str]) -> dash:
-    external = [dbc.themes.SLATE]
-    USERNAME_PASSWORD_PAIRS = [['username', 'password'], ['admin', 'admin']]
+def run_dash(dict_media: Dict[str, str], dict_media_singular: Dict[str, str], app: dash) -> dash:
 
-    app = dash.Dash(__name__, external_stylesheets=external)
-    server = app.server
+    USERNAME_PASSWORD_PAIRS = [['username', 'password'], ['admin', 'admin']]
     auth = dash_auth.BasicAuth(app, USERNAME_PASSWORD_PAIRS)
     # app.config['suppress_callback_exceptions'] = True
 
