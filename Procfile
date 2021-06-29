@@ -1,1 +1,1 @@
-web: gunicorn script_dash:server
+web: gunicorn main:server
