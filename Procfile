@@ -1,1 +1,0 @@
-web: gunicorn projet_online_copie.main:server
