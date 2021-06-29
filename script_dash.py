@@ -458,11 +458,6 @@ def function_tab_2(list_names=None):
 
 
 def run_dash(dict_media: Dict[str, str], dict_media_singular: Dict[str, str], app: dash) -> dash:
-
-    USERNAME_PASSWORD_PAIRS = [['username', 'password'], ['admin', 'admin']]
-    auth = dash_auth.BasicAuth(app, USERNAME_PASSWORD_PAIRS)
-    # app.config['suppress_callback_exceptions'] = True
-
     # Layout
     app.layout = html.Div(children=[
         dbc.Card([
