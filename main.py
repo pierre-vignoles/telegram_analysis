@@ -8,16 +8,17 @@ import dash
 import dash_bootstrap_components as dbc
 import dash_auth
 
+dict_media, dict_media_singular = init_var_function()
+
+external = [dbc.themes.SLATE]
+app = dash.Dash(__name__, external_stylesheets=external)
+server = app.server
+
+USERNAME_PASSWORD_PAIRS = [['username', 'password'], ['admin', 'admin']]
+auth = dash_auth.BasicAuth(app, USERNAME_PASSWORD_PAIRS)
+# app.config['suppress_callback_exceptions'] = True
+
+app = run_dash(dict_media, dict_media_singular, app)
+
 if __name__ == '__main__':
-    dict_media, dict_media_singular = init_var_function()
-
-    external = [dbc.themes.SLATE]
-    app = dash.Dash(__name__, external_stylesheets=external)
-    server = app.server
-
-    USERNAME_PASSWORD_PAIRS = [['username', 'password'], ['admin', 'admin']]
-    auth = dash_auth.BasicAuth(app, USERNAME_PASSWORD_PAIRS)
-    # app.config['suppress_callback_exceptions'] = True
-
-    app = run_dash(dict_media, dict_media_singular, app)
     app.run_server()
