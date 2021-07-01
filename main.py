@@ -2,8 +2,8 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-from script_dash import run_dash
-from init_var import init_var_function
+from python_script.script_dash import run_dash
+from python_script.basic_analysis.init_var import init_var_function
 import dash
 import dash_bootstrap_components as dbc
 import dash_auth
