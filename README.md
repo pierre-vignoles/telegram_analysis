@@ -32,5 +32,15 @@ You have to import your json file then click on the launch button :
 
 ![Screen4](https://github.com/pierre-vignoles/telegram_analysis/blob/master/img/screen1.png)
 
+![Screen5](https://github.com/pierre-vignoles/telegram_analysis/blob/master/img/screen2.png)
+
+![Screen6](https://github.com/pierre-vignoles/telegram_analysis/blob/master/img/screen3.png)
+
+If you want to visualize the stickers, you have to import it an then click on the element of the graph you want :
+
+![Screen7](https://github.com/pierre-vignoles/telegram_analysis/blob/master/img/screen4.png)
+
+
+
 
 
