@@ -8,4 +8,29 @@ This program will give you a complete visualization of your telegram conversatio
 You can look the screenshot at the end of this file to see all the features.
 
 ## Getting Started
-You need to download your telegram conversation in json format. 
+### Download your telegram conversation
+You need to download it in json format. 
+Just follow the next tutorial :
+
+![Screen1](https://github.com/pierre-vignoles/telegram_analysis/blob/master/img/screen1_tg.png)
+
+
+![Screen2](https://github.com/pierre-vignoles/telegram_analysis/blob/master/img/screen2_tg.png)
+
+### Install the libraries
+`pip install -r requirements.txt`
+
+## Launch 
+Execute the following command in a terminal : `python main.py`  
+
+Then you need to copy the following link in your Web browser :  
+
+![Screen3](https://github.com/pierre-vignoles/telegram_analysis/blob/master/img/screen.png)
+## Next step
+
+You have to import your json file then click on the launch button :
+
+![Screen4](https://github.com/pierre-vignoles/telegram_analysis/blob/master/img/screen1.png)
+
+
+
