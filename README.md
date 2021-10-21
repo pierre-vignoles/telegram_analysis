@@ -38,7 +38,16 @@ You have to import your json file then click on the launch button :
 
 If you want to visualize the stickers, you have to import it an then click on the element of the graph you want :
 
-![Screen7](https://github.com/pierre-vignoles/telegram_analysis/blob/master/img/screen4.png)
+![Screen6](https://github.com/pierre-vignoles/telegram_analysis/blob/master/img/screen4.png)
+
+###  Sentiment analysis 
+
+![Screen7](https://github.com/pierre-vignoles/telegram_analysis/blob/master/img/screen5.png)
+
+![Screen8](https://github.com/pierre-vignoles/telegram_analysis/blob/master/img/screen6.png)
+
+## Heroku
+You can add this program on HEROKU to let it work without interruption for free. The file Procfile is there for that.
 
 
 
